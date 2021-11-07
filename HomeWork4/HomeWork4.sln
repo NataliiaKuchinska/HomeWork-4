@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork4", "HomeWork4.csproj", "{086DBD32-CA7A-47AD-99DF-AE414B2DD214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4Lib", "..\HW4Lib\HW4Lib.csproj", "{F7FAE29B-8EEB-4204-B009-65102802F3FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{086DBD32-CA7A-47AD-99DF-AE414B2DD214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086DBD32-CA7A-47AD-99DF-AE414B2DD214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086DBD32-CA7A-47AD-99DF-AE414B2DD214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086DBD32-CA7A-47AD-99DF-AE414B2DD214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7FAE29B-8EEB-4204-B009-65102802F3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7FAE29B-8EEB-4204-B009-65102802F3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7FAE29B-8EEB-4204-B009-65102802F3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7FAE29B-8EEB-4204-B009-65102802F3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7DEF210-6F9C-475A-A347-DF40B7EF23D9}
+	EndGlobalSection
+EndGlobal
