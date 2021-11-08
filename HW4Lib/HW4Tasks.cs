@@ -34,24 +34,24 @@ namespace HW4Lib
             return result;
         }
 
-        public static ArrayList NumbersMultipliedN(int n)
+        public static int[] NumbersMultipliedN(int n)
         {
-            ArrayList arr = new ArrayList();
+            int sizeofarray = 1000 / n;
+            int[] arr = new int[sizeofarray];
+            int j = 0;
             for (int i = n; i <= 1000; i += n)
             {
-                arr.Add(i);
+                arr[j] = i;
+                ++j;
             }
-
             return arr;
         }
-
-        public static void PrintArray(ArrayList arr)
+        public static void PrintArray(int[] arr)
         {
-            foreach (Object obj in arr)
+            for (int i = 0; i <arr.Length; ++i)
             {
-                Console.Write($"{obj}  ");
-            }
-
+                Console.Write($"{arr[i]}  ");
+            }          
         }
         public static void SquaresToN(int n)
         {
