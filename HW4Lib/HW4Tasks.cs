@@ -37,8 +37,8 @@ namespace HW4Lib
         public static int[] NumbersMultipliedN(int n)
         {
             const int  sup = 1000;
-            int sizeofarray = sup / n;
-            int[] arr = new int[sizeofarray];
+            int arraySize = sup / n;
+            int[] arr = new int[arraySize];
             int j = 0;
             for (int i = n; i <= sup; i += n)
             {
@@ -47,6 +47,7 @@ namespace HW4Lib
             }
             return arr;
         }
+
         public static void PrintArray(int[] arr)
         {
             for (int i = 0; i <arr.Length; ++i)
