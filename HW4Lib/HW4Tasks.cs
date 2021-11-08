@@ -51,8 +51,10 @@ namespace HW4Lib
             for (int i = 0; i <arr.Length; ++i)
             {
                 Console.Write($"{arr[i]}  ");
-            }          
+            }
+            Console.WriteLine(" ");
         }
+
         public static void SquaresToN(int n)
         {
             int i = 1;
