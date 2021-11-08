@@ -36,10 +36,11 @@ namespace HW4Lib
 
         public static int[] NumbersMultipliedN(int n)
         {
-            int sizeofarray = 1000 / n;
+            const int  sup = 1000;
+            int sizeofarray = sup / n;
             int[] arr = new int[sizeofarray];
             int j = 0;
-            for (int i = n; i <= 1000; i += n)
+            for (int i = n; i <= sup; i += n)
             {
                 arr[j] = i;
                 ++j;
